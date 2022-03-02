@@ -21,5 +21,6 @@ public class Queue<T> {
 
 	public int size() {
 		return LinkedList.size();
+	
 	}
 }
