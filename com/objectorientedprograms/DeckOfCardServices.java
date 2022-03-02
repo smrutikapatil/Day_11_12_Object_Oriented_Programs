@@ -10,7 +10,6 @@ public interface DeckOfCardServices {
 	public void allocatecards(Player player);
 
 	void dequeuePlayers();
-
 	void printPlayerCards(Player player);
 
 	public void allotOneCard(int noOfPlayers);
