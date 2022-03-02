@@ -31,6 +31,7 @@ public class DeckOfCardsImpl implements DeckOfCardServices {
 			cards[suit][rank] = 1; // marks card as allotted
 		} else { // card is already allotted. generates new card
 			allocatecards(player);
+			
 		}
 	}
 
