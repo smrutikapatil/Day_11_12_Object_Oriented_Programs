@@ -1,9 +1,9 @@
 package com.objectorientedprograms;
 
 public class LinkedList<T> {
-	Node<T> head; // starting node
-	Node<T> current; // last node
-	int position; // position of last node
+	Node<T> head; 
+	Node<T> current; 
+	int position; 
 
 	public LinkedList() {
 		head = null;
