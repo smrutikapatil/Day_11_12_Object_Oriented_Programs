@@ -21,7 +21,7 @@ public class DeckOfCards {
 		return rank;
 	}
 
-	/** returns rank of the card from number **/
+
 	static String getRank(int rankNumber) {
 		switch (rankNumber) {
 		case 0:
@@ -55,7 +55,7 @@ public class DeckOfCards {
 		}
 	}
 
-	// returns suit name from number
+	
 	static String getSuit(int suitNumber) {
 		switch (suitNumber) {
 		case 0:
