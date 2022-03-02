@@ -1,8 +1,8 @@
 package com.objectorientedprograms;
 
 public class Node<T> {
-	T data; // data to be stored
-	Node<T> next; // reference to the next node
+	T data; 
+	Node<T> next; 
 
 	Node(T data) {
 		this.data = data;
