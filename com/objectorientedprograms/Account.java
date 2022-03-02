@@ -2,6 +2,7 @@ package com.objectorientedprograms;
 
 public class Account {
 	private double balance;
+	
 	public double getBalance() {
 		return balance;
 	}
