@@ -41,7 +41,7 @@ public class AccountTest {
 	}
 	
 	public void depositMoney() {
-		System.out.println( "Enter deposit amount for account1:"); // prompt
+		System.out.println( "Enter deposit amount for account1:"); 
 		depositAmount = input.nextDouble();
 		System.out.println("added to account1 balance"+" "+depositAmount);
 		account1.credit( depositAmount); // add to account1 balance
